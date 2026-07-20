@@ -1,14 +1,14 @@
 class Ilmari < Formula
   desc "Minimal tmux popup radar for multi-agent tmux workspaces"
   homepage "https://github.com/bnomei/ilmari"
-  version "0.9.3"
+  version "0.9.4"
   license "MIT"
 
   checksums = {
-    aarch64_apple_darwin: "8dea44796f0d937cd97aad4099e5345e16d7f779b61260ef4832e678579dd353",
-    x86_64_apple_darwin: "cf478f8541253118deb11f5836c2e016a4b65e45297301f215e46d2f87c98681",
-    aarch64_unknown_linux_musl: "a6b31e45c117f1b798ec6456675fb7b54e9323055b761a183dc444e1b7d91fe9",
-    x86_64_unknown_linux_musl: "7720a0afbe289b2572a21d87b7c6bb50ffca82f7d57a1cc201ffb2b9437d1e3b",
+    aarch64_apple_darwin: "255541314a8ed44bf7abf334db13a5130c106728c89ea2081e486940795d8369",
+    x86_64_apple_darwin: "ca4619d5470a119c6ae6ac6be951e195d6211b5796416fe7fd3767457a16d9e6",
+    aarch64_unknown_linux_musl: "c7c88a68e825b8cccf24589e20f0ad199478a48a3673a4d71f4a91c49799c070",
+    x86_64_unknown_linux_musl: "b4f8ba904001e1adb1359e02d7c94a69dbf33d5763c6704a8b62d9481e0816d3",
   }
 
   on_macos do
